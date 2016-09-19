@@ -14,8 +14,6 @@ CONFIG_TEMPLATE = {'URL': "http://jira.example.com",
 
 class Jira(BotPlugin):
     """A plugin for interacting with Atlassian JIRA"""
-    min_err_version = '1.6.0'  # Optional, but recommended
-    max_err_version = '2.0.0'  # Optional, but recommended
 
     def get_configuration_template(self):
         """Defines the configuration structure this plugin supports"""
